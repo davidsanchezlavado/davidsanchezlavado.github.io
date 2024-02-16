@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
+    font-family: fuente1;
 }
 
 body {
@@ -154,9 +156,12 @@ h2 {
     background: #0c474e;
     padding: 20px;
     text-align: center;
+    align-items: center;
     width: 250px;
     border-radius: 20px;
     margin: 25px;
+    box-shadow: 7px 7px 7px #6962AD;
+    margin-bottom: 100px;
 }
 
 .skl img {
@@ -165,4 +170,27 @@ h2 {
     display: flex; 
     border-radius: 20px; 
     margin-top: 15px;
+    margin-left: 20px;
+}
+
+.skl img:hover {
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+}
+
+.tarjetas {
+    display: flex;
+    margin: 45px;
+    justify-content: center;
+}
+
+.final {
+    padding: 3px;
+    background: #0c474e;
+    border: #04364A;
+}
+
+@font-face {
+    font-family: fuente1;
+    src: url(../fonts/PTSerif-Regular.ttf);
 }
