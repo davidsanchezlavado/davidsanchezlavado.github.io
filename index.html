@@ -1,54 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-  <link rel="stylesheet" href="../css/folio.css">
+  <link rel="stylesheet" href="css/folio.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Curriculum</title>
+  <title>David Sánchez Lavado - Curriculum</title>
 </head>
 
 <body>
   <nav>
-    <img class="imagen" src="../imagenes/personas.png" alt="">
+    <img class="imagen" src="imagenes/personas.png" alt="Logo">
+    <a href="#contacto" class="encabezado">Contacto</a>
     <a href="#Sm" class="encabezado">Sobre mí</a>
     <a href="#Ap" class="encabezado">Aptitudes</a>
     <a href="#Sk" class="encabezado">Skills</a>
+    <a href="#edu" class="encabezado">Educación</a>
+    <a href="#exp" class="encabezado">Experiencia</a>
   </nav>
   <hr class="separacion">
+  
   <section class="nombre">
     <h2 class="completo">David Sánchez Lavado</h2>
-    <p class="hastag">#estudiante</p>
-    <a class="redes_sociales" href="https://www.instagram.com/" target="_blank">Instagram</a>
-    <a class="redes_sociales" href="https://twitter.com/?lang=es" target="_blank">Twitter</a>
-    <a class="redes_sociales" href="https://es.linkedin.com/" target="_blank">Linkedin</a>
+    <p class="hastag">#Desarrollador de Aplicaciones Multiplataforma</p>
+    <div id="contacto" class="contacto-info">
+      <p>C/ Jose María Perda, Alcalá de Henares, Madrid</p>
+      <p>+34 691 25 98 46 | lavadosanchez.d@gmail.com</p>
+      <div class="redes-container">
+        <a class="redes_sociales" href="https://davidsanchezla.github.io/" target="_blank">Portfolio</a>
+        <a class="redes_sociales" href="https://www.instagram.com/" target="_blank">Instagram</a>
+        <a class="redes_sociales" href="https://twitter.com/?lang=es" target="_blank">Twitter</a>
+        <a class="redes_sociales" href="https://es.linkedin.com/" target="_blank">LinkedIn</a>
+      </div>
+    </div>
   </section>
 
   <hr class="separacion">
 
   <section class="sobre_mi">
-
     <div class="izq">
       <h1 id="Sm">Sobre mí</h1>
-      <p class="contenido">Actualmente estoy cursando 2º de SMR en el instituto Alonso de Avellaneda, me gustaría
-        adentrarme al mundo laboral para ganar práctica y experiencia a mi persona, lo que más me gusta es la
-        prográmacion y aprender sobre ella.</p>
+      <p class="contenido">Soy Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (DAM), con una sólida base formativa y una fuerte orientación a resultados. Busco activamente oportunidades que me permitan aplicar y expandir mis conocimientos técnicos en lenguajes de programación esenciales como Java, C#, Python, SQL, HTML, CSS, JS y Android Studio y conocimiento amplio en GitHub.</p>
+      
+      <p class="contenido">Mi objetivo es integrarme en un entorno profesional donde pueda contribuir con mis habilidades de trabajo en equipo, mi capacidad para la resolución de problemas complejos y un enfoque creativo en el desarrollo. Aspiro a un rol que facilite el crecimiento continuo y el aprendizaje de nuevas tecnologías.</p>
+      
       <hr class="sep_izq">
       <h1 id="Ap">Aptitudes</h1>
-      <p class="contenido">Mis mayores aptitudes son el <strong class="apt">Trabajo en equipo</strong> ya que siempre he
-        estado
-        acostumbrado a trabajar con gente, la <strong class="apt">Responsabilidad</strong> tambien es mi fuerte no fallo
-        con inguna
-        entrega y tiempo de llegada, Soy <strong class="apt">Flexible</strong> y tengo <strong
-          class="apt">Liderazgo</strong> puedo hacer todo
-        lo que se me pida añadiento ser la cabeza de un grupo</p>
+      <div class="aptitudes-grid">
+        <div class="aptitud-item"><strong class="apt">Trabajo en equipo</strong></div>
+        <div class="aptitud-item"><strong class="apt">Comunicación</strong></div>
+        <div class="aptitud-item"><strong class="apt">Creatividad</strong></div>
+        <div class="aptitud-item"><strong class="apt">Ordenado</strong></div>
+        <div class="aptitud-item"><strong class="apt">Proactivo</strong></div>
+        <div class="aptitud-item"><strong class="apt">Solución de problemas</strong></div>
+      </div>
     </div>
 
     <div class="der">
-      <h1 id="Idiomas">Idiomas:</h1>
-      <h2>Inglés</h2>
-      <a href="https://www.cambridgeenglish.org/es/exams-and-tests/young-learners-english/"><img class="ingles"
-          src="../imagenes/ingles.jpg" alt=""></a>
+      <h1 id="Idiomas">Idiomas</h1>
+      <div class="idioma">
+        <h2>Inglés</h2>
+        <p class="nivel">Nivel B2</p>
+        <a href="https://www.cambridgeenglish.org/es/exams-and-tests/young-learners-english/"><img class="ingles" src="imagenes/ingles.jpg" alt="Certificado Cambridge"></a>
+      </div>
+      <div class="idioma">
+        <h2>Español</h2>
+        <p class="nivel">Nativo</p>
+      </div>
     </div>
   </section>
 
@@ -58,23 +76,94 @@
     <h1 id="Sk" class="Skills">Skills</h1>
     <div class="tarjetas">
       <div class="skl">
-        <h2>PowerPoint</h2>
-        <img src="../imagenes/PowerPoint.png" alt="">
+        <h2>Java</h2>
+        <p class="skill-icon">☕</p>
       </div>
       <div class="skl">
-        <h2>Word</h2>
-        <img src="../imagenes/word.jpg" alt="">
+        <h2>Python</h2>
+        <p class="skill-icon">🐍</p>
       </div>
       <div class="skl">
-        <h2>Excel</h2>
-        <img src="../imagenes/excel.jpg" alt="">
+        <h2>C#</h2>
+        <p class="skill-icon">#</p>
       </div>
       <div class="skl">
-        <h2>Gimp</h2>
-        <img src="../imagenes/gimp.jpg" alt="">
+        <h2>HTML/CSS/JS</h2>
+        <p class="skill-icon">&lt;/&gt;</p>
+      </div>
+      <div class="skl">
+        <h2>SQL</h2>
+        <p class="skill-icon">🗃</p>
+      </div>
+      <div class="skl">
+        <h2>GitHub</h2>
+        <p class="skill-icon">Git</p>
+      </div>
+      <div class="skl">
+        <h2>Android Studio</h2>
+        <p class="skill-icon">🤖</p>
+      </div>
+      <div class="skl">
+        <h2>Bootstrap</h2>
+        <p class="skill-icon">B</p>
       </div>
     </div>
   </section>
+
+  <hr class="separacion">
+
+  <section class="educacion">
+    <h1 id="edu" class="Skills">Educación</h1>
+    <div class="edu-container">
+      <div class="edu-item">
+        <h2>Técnico Superior en Desarrollo de Aplicaciones Multiplataforma</h2>
+        <p class="fecha">Actualmente estudiando</p>
+        <p class="institucion">I.E.S Alonso de Avellaneda</p>
+        <p class="detalle">Lenguajes: Java, Python, C#, GitHub, Kotlin, SQL, PL/SQL</p>
+        <p class="detalle">Trabajo Final: Aplicación de fútbol completa con API, sistema de quinielas, Firebase</p>
+      </div>
+      <div class="edu-item">
+        <h2>Técnico Medio en Sistemas Microinformáticos y Redes</h2>
+        <p class="fecha">2024</p>
+        <p class="institucion">I.E.S Alonso de Avellaneda</p>
+        <p class="detalle">Experiencia con Ubuntu, desarrollo con servidores, gestión de redes locales</p>
+        <p class="detalle">Trabajo de curso: Manejo de servidores interconectados en Windows Server</p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="separacion">
+
+  <section class="experiencia">
+    <h1 id="exp" class="Skills">Experiencia</h1>
+    <div class="exp-container">
+      <div class="exp-item">
+        <h2>Técnico de Desarrollo de Aplicaciones en Prácticas</h2>
+        <p class="empresa">Grupo Gestyde</p>
+        <p class="fecha">Febrero - Mayo 2026</p>
+        <ul class="lista-tareas">
+          <li>Desarrollo web app de Reservas con WebForms</li>
+          <li>Desarrollo web app de Facturas y presupuestos en .Net Core MVC</li>
+          <li>Conocimiento de Bootstrap</li>
+          <li>Solución de problemas de aplicaciones de clientes</li>
+        </ul>
+      </div>
+      <div class="exp-item">
+        <h2>Técnico Informático en Prácticas</h2>
+        <p class="empresa">PRG Retail Group</p>
+        <p class="fecha">Marzo - Junio 2024</p>
+        <ul class="lista-tareas">
+          <li>Montaje y mantenimiento de equipos</li>
+          <li>Gestión de servidores</li>
+          <li>Clonaciones y gestión de discos duros</li>
+          <li>Gestión de redes</li>
+          <li>Clonaciones de discos para nuevas versiones de cajas en tienda</li>
+          <li>Actividades complejas con comandos de Ubuntu</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
   <hr class="final">
 </body>
 
